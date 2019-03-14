@@ -25,13 +25,35 @@ div{
 #majors{
     display: flex;
 }
+
 .container-major{
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    align-items: center;
     width: 25%;
     margin: 10px;
 }
 .container-major>p{
     text-align: center;
 }
+.container-major>div{
+    /* background-image: url("../image/IconWeb/icon web-39.svg");
+    background-size: 250px; */
+    box-shadow: 5px 5px 5px gray;
+    background-color: #c1bdae;
+    border: #c1bdae;
+    padding: 20px;
+    border-radius: 15px;
+    width: 60%;
+    height: 40%;
+    /* position: relative; */
+}
+.container-major>img{
+    /* width: 25%;
+    height: 25%; */
+}
+
 #timeline{
     display: flex;
     flex-wrap: wrap;
