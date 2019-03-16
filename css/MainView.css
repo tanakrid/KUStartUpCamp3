@@ -1,11 +1,20 @@
-body{
-    margin: 0%;
-}
-div{
+/*FOR NOTICE AREA OF SECTION*/
+div{ 
     border: 1px solid black;
 }
 
+body{
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.MainContainer{
+    width: 100%;
+    margin: 10px;
+}
 .ContainerHeadSection{
+    width: 80%;
     display: flex; 
     justify-content: center;
 }
@@ -14,25 +23,32 @@ div{
     border-radius: 20px;
     text-align: center;
     width: 40%;
-    font-size: 1.2em; 
+    font-size: 2em; 
+    box-shadow: 5px 5px 5px gray;
 }
 
+/* REGISTER */
 #register{
     position: fixed;
     bottom: 25%;
     right: 5%;
     width: 10%;
     border: 3px solid #41BEAC;
-
 }
+/* FOR NOTICE AREA OF IMAGE */
 #register>img{
     position: absolute;
     border: 1px solid ;
 }
+/* REGISTER */
 
+/* HEADWEB */
 #headweb>h1{
     text-align: center;
 }
+/* HEADWEB */
+
+/* INTRO */
 #intro{
     padding: 0 20% 0 20%;
 }
@@ -40,14 +56,15 @@ div{
     margin: 10px;
     font-size: 20px;
 }
+/* INTRO */
+
+/* MAJORS */
 #majors{
     display: flex;
     padding: 0 10% 0 10%;
 }
-
 .container-major{
     display: flex;
-    /* flex-wrap: wrap; */
     flex-direction: column;
     align-items: center;
     width: 25%;
@@ -58,8 +75,6 @@ div{
     font-size: 2em;
 }
 .container-major>div{
-    /* background-image: url("../image/IconWeb/icon web-39.svg");
-    background-size: 250px; */
     box-shadow: 5px 5px 5px gray;
     background-color: #c1bdae;
     border: #c1bdae;
@@ -67,20 +82,17 @@ div{
     border-radius: 15px;
     width: 60%;
     height: 40%;
-    /* position: relative; */
 }
 .container-major>img{
     width: 120%;
     height: 120%;
 }
+/* MAJORS */
 
+/* TIMELINE */
 #timeline>div{
-    /* height: 20%; */
-    /* padding: 20%; */
     display: flex;
-    /* flex-wrap: wrap; */
     justify-content: center;
-    /* border-left: 20%; */
 }
 .container-timeline{
     width: 20%;
@@ -88,7 +100,12 @@ div{
     margin: 1%;
     text-align: center;
 }
+/* TIMELINE */
+
+/* LOCATION */
 #location{
     text-align: center;
     align-items: center;
+    font-size: 1.5em;
 }
+/* LOCATION */
