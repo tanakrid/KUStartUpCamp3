@@ -1,9 +1,10 @@
 /*FOR NOTICE AREA OF SECTION*/
-div{ 
+/* div{ 
     border: 1px solid black;
-}
+} */
 
 body{
+    /* background-color: black; */
     margin: 0%;
     display: flex;
     flex-direction: column;
