@@ -29,17 +29,54 @@ body{
 }
 
 /* REGISTER */
+@keyframes rotating{
+    0% {transform: scale(0.425,0.425) rotate(0deg);}
+    100% {transform: scale(0.425,0.425) rotate(360deg);}
+}
 #register{
     position: fixed;
     bottom: 25%;
     right: 5%;
     width: 10%;
+    height: 10%;
     border: 3px solid #41BEAC;
 }
 /* FOR NOTICE AREA OF IMAGE */
 #register>img{
     position: absolute;
-    border: 1px solid ;
+}
+#register>#in1{
+    transform: scale(0.4,0.4);
+    /* width: 50%;
+    height: 50%; */
+    top: -60px;
+    left: -60px;
+    border: #41BEAC solid;
+    animation-name: rotating;
+    animation-duration:1s; 
+    animation-iteration-count: infinite;
+    /* transform: scale(0.4,0.4) rotate(45deg); */
+    /* transform: scale(0.4,0.4); */
+}
+#register>#in2{
+    transform: scale(0.402,0.402);
+    top: -79px;
+    left: -79px;
+    border: #41BEAC solid;
+    animation-name: rotating;
+    animation-duration:3s; 
+    animation-iteration-count: infinite;
+    /* transform: scale(0.402,0.402) rotate(50deg); */
+}
+#register>#in3{
+    transform: scale(0.425,0.425);
+    top: -79px;
+    left: -79px;
+    border: red solid;
+    animation-name: rotating;
+    animation-duration:4s; 
+    animation-iteration-count: infinite;
+    /* transform: scale(0.425,0.425) rotate(55deg); */
 }
 /* REGISTER */
 
