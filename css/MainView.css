@@ -9,7 +9,15 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url('image/png/webback-25.png') url("image/png/webback-27.png");
+    background-image: url('../image/png/webback-25.png') ;/*url("image/png/webback-27.png");*/
+    font-family: supermarket;
+}
+@font-face {
+    font-family: 'supermarket';
+    src: url('../supermarket-webfont.ttf');
+}
+h1{
+    font-family: supermarket;
 }
 .MainContainer{
     width: 100%;
