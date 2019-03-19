@@ -1,23 +1,17 @@
 /*FOR NOTICE AREA OF SECTION*/
-div{ 
+/* div{ 
     border: 1px solid black;
-}
-
+} */
+@import url('https://fonts.googleapis.com/css?family=Kanit');
 body{
-    /* background-color: black; */
     margin: 0%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url('../image/png/webback-25.png') ;/*url("image/png/webback-27.png");*/
-    font-family: supermarket;
+    background-image: url('../image/png/webback-25.png') ;
 }
-@font-face {
-    font-family: 'supermarket';
-    src: url('../supermarket-webfont.ttf');
-}
-h1{
-    font-family: supermarket;
+.kanit{
+    font-family: 'kanit';
 }
 .MainContainer{
     width: 100%;

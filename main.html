@@ -2,19 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
     <link rel="stylesheet" href="css/MainView.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <title>KU Startup Camp3</title>
 </head>
-<body>
+<body class="kanit">
     <div id="register">
         <a href="https://github.com/tanakrid/KUStartUpCamp3/commits/master"><img src="image/IconWeb/web-51.png" alt="" id="in1"></a>
         <img src="image/IconWeb/web-52.png" alt="" id="in2">
         <img src="image/IconWeb/web-52.png" alt="" id="in3">
     </div>
     <div id="headweb" class="MainContainer">
-        <h1 style="font-family:supermarket;">KU STARTUP CAMP 3 ทดสอบ</h1>
+        <h1>KU STARTUP CAMP 3</h1>
         <img src="" alt="">
     </div>
     <div class="ContainerHeadSection"><div class="HeadSection">WHAT IS KU STARTUP CAMP?</div></div>
@@ -101,7 +107,27 @@
     </div>
     <div class="ContainerHeadSection"><div class="HeadSection">GALLERY</div></div>
     <div id="gallery" class="MainContainer">
-        <!-- gallery system -->
+        <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-interval="10000">
+                <img src="image/test.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-interval="2000">
+                <img src="image/png/web-23.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                <img src="image/png/web-48.png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+            </div>
     </div>
     <div class="ContainerHeadSection"><div class="HeadSection">SPONSER</div></div>
     <div id="sponser" class="MainContainer">
@@ -116,10 +142,26 @@
     </div>
     <div class="ContainerHeadSection"><div class="HeadSection">Q & A</div></div>
     <div id="q and a" class="MainContainer">
+        <!-- <div class="container-qanda"></div>
         <div class="container-qanda"></div>
         <div class="container-qanda"></div>
-        <div class="container-qanda"></div>
-        <div class="container-qanda"></div>
+        <div class="container-qanda"></div> -->
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample" style="background-color:red">
+            Button with data-target
+        </button>
+        <div class="collapse" id="collapseExample">
+        <div class="card card-body">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+        </div>
+        </div>
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2">
+                Button with data-target
+            </button>
+            <div class="collapse" id="collapseExample2">
+            <div class="card card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+            </div>
+            </div>
     </div>
     <div class="ContainerHeadSection"><div class="HeadSection">FOLLOW</div></div>
     <div id="footer" class="MainContainer">
@@ -129,6 +171,30 @@
         <img src="image/png/web-54.png" alt="">
         <img src="" alt="">
         <img src="" alt="">
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalScrollable">
+                Launch demo modal
+        </button>
+            
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-scrollable" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalScrollableTitle">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus unde deleniti, non corporis dolore vel soluta deserunt doloremque nemo ratione et, ullam provident iure ab? Eum ad facere distinctio unde!</p>
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
