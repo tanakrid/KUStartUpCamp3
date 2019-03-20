@@ -1,21 +1,19 @@
-/*FOR NOTICE AREA OF SECTION*/
-/* div{ 
-    border: 1px solid black;
-} */
 @import url('https://fonts.googleapis.com/css?family=Kanit');
+div{ 
+    border: 1px solid black;
+}
 body{
     margin: 0%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url('../image/png/webback-25.png') ;
+    background-image: linear-gradient(to bottom right, #B9E6E3 10%, #B4E5DF, #D9F2F0, #ffffff, #D9F2F0, #B4E5DF);
 }
 .kanit{
     font-family: 'kanit';
 }
 .MainContainer{
     width: 100%;
-    margin: 50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -26,12 +24,13 @@ body{
     justify-content: center;
 }
 .HeadSection{
-    background-image: linear-gradient(#FFFFFF, #D9F2F0);
+    background-image: linear-gradient(#FFFFFF 50%, #D9F2F0 50%);
     border-radius: 20px;
     text-align: center;
-    width: 40%;
+    padding: 5px 50px 5px 50px;
     font-size: 2em; 
-    box-shadow: 5px 5px 5px gray;
+    box-shadow: 2px 3px 8px #a39b9b;
+    margin: 5% 0 5% 0;
 }
 
 /* REGISTER */
@@ -39,67 +38,53 @@ body{
     0% {transform: scale(0.425,0.425) rotate(0deg);}
     100% {transform: scale(0.425,0.425) rotate(360deg);}
 }
-#register{
+#in0{
+    font-size: 1.5em;
     position: fixed;
-    bottom: 25%;
-    right: 5%;
-    width: 10%;
-    height: 10%;
-    border: 3px solid #41BEAC;
+    z-index: 4; 
+    bottom: 79px;
+    right: 54px;
 }
-/* FOR NOTICE AREA OF IMAGE */
-#register>img, #register>a>img{
-    position: absolute;
-}
-#register>a>#in1{
+#in1{
+    position: fixed;
     z-index: 3;
-    transform: scale(0.4,0.4);
-    /* width: 50%;
-    height: 50%; */
-    top: -60px;
-    left: -60px;
-    border: #41BEAC solid;
-    animation-name: rotating;
-    animation-duration:1s; 
-    animation-iteration-count: infinite;
-    /* transform: scale(0.4,0.4) rotate(45deg); */
-    /* transform: scale(0.4,0.4); */
-}
-#register>#in2{
-    transform: scale(0.402,0.402);
-    top: -79px;
-    left: -79px;
-    border: #41BEAC solid;
-    animation-name: rotating;
+    bottom: -71px;
+    right: -71px;
+    border: #41BEAC solid 1px;
+    animation-name: rotating; 
     animation-duration:3s; 
-    animation-iteration-count: infinite;
-    /* transform: scale(0.402,0.402) rotate(50deg); */
+    animation-iteration-count: infinite; 
 }
-#register>#in3{
-    transform: scale(0.425,0.425);
-    top: -79px;
-    left: -79px;
-    border: red solid;
+#in2{
+    position: fixed;
+    bottom: -90px;
+    right: -90px;
+    border: rgb(10, 10, 10) solid 1px;
     animation-name: rotating;
     animation-duration:4s; 
     animation-iteration-count: infinite;
-    /* transform: scale(0.425,0.425) rotate(55deg); */
 }
 /* REGISTER */
 
 /* HEADWEB */
+#headweb{
+    margin-top: 20px;
+}
 #headweb>h1{
     text-align: center;
+    font-size: 4em;
+}
+#headweb>img{
+    width: 1100px;
+    height: 600px;
 }
 /* HEADWEB */
 
 /* INTRO */
 #intro{
     padding: 0 20% 0 20%;
-}
-#intro>p{
     margin: 10px;
-    font-size: 20px;
+    font-size: 1.5em;
 }
 /* INTRO */
 
@@ -114,19 +99,19 @@ body{
     align-items: center;
     width: 25%;
     height: 25%;
-    margin: 2%;
+    margin: 5px;
 }
 .container-major>p{
     text-align: center;
     font-size: 2em;
 }
 .container-major>div{
-    box-shadow: 5px 5px 5px gray;
+    box-shadow: 2px 3px 8px #a39b9b;
     background-color: #F2F2F2;
     padding: 20px;
     border-radius: 15px;
-    width: 60%;
-    height: 40%;
+    width: 210px;
+    height: 240px;
 }
 .container-major>img{
     width: 100%;
@@ -136,49 +121,43 @@ body{
 
 /* TIMELINE */
 #timeline{
-    /* width: 100%;
-    height: 100px;
-    display: flex; */
-    /* flex-direction: column; */
     flex-wrap: wrap;
     margin: 0 10% 1 10%;
 }
-/* #timeline>div{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-} */
 .container-timeline{
     width: 20%;
     height: 80%;
-    margin: 5%;
+    margin: 1% 3% 1% 3%;
     text-align: center;
 }
 .container-timeline>img{
-    width:40%;
-    height: 40%;
+    widows: 200px;;
+    height: 200px;
 }
 /* TIMELINE */
 
 /* LOCATION */
 #location{
-    display: flex;
-    flex-direction: column;
+    /* display: flex; */
+    /* flex-direction: column; */
+    display: block;
     text-align: center;
-    align-items: center;
+    /* align-items: center; */
     font-size: 1.5em;
+}
+#location>a>img{
+    width: 900px;
+    height: 500px;
+    border: #616161 solid 10px;
 }
 /* LOCATION */
 
 /* INSTRUCTOR */
-/* #instructor{
-    display: flex;
-    justify-content: center;
-} */
 #instructor>img{
     margin: 10px;
 }
 /* INSTRUCTOR */
+
 /* SPONSER */
 /* #sponser{
     display: flex;
@@ -192,6 +171,50 @@ body{
     border: 1px solid black;
 }
 /* SPONSER */
+
+/*GALLERY*/
+#gallery{
+    width: 600px;
+}
+#carouselExampleControls>div>div>img{
+    height: 400px;
+}
+/*GALLERY*/
+
+/* QANDA */
+#qanda{
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+}
+#qanda>button{
+    background-image: linear-gradient(#FFFFFF 50%, #D9F2F0 50%);
+    border-radius: 20px;
+    text-align: center;
+    padding: 5px 50px 5px 50px;
+    font-size: 2em; 
+    box-shadow: 2px 3px 8px #a39b9b;
+    margin: 10px;
+    width: 80%;
+    color: black;
+}
+#qanda>div{
+    align-items: center;
+}
+#qanda>div>div{
+    background-image: linear-gradient(#616161, #948282);
+    font-size:1.5em;
+    border-radius: 20px;
+    text-align: center;
+    padding: 5px 20px 5px 20px;
+    color: white;
+    width: 80%;
+    /* align-items: center; */
+
+}
+/* QANDA */
+
+
 /* FOLLOW */
 #footer{
     flex-direction: column;
