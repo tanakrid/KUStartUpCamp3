@@ -1,0 +1,85 @@
+/* RESPOSIVE */
+@media only screen and (max-width: 420px){ 
+    #FirstRegister{
+        display: none;
+    }
+    #headweb{
+        font-size: 0.5em;
+    }
+    #headweb>img{
+        width: 370px;
+        height: 200px;
+    }
+    #intro{
+        padding: 0 10% 0 10%;
+        font-size: 0.9em;
+    }
+    #majors{
+        flex-direction: column;
+        align-items: center;
+    }
+    .container-major>img{
+        width: 200px;
+        height: 200px;
+    }
+    .container-major>div{
+        width: 250px;
+        height: auto;
+    }
+    #timeline{
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    .container-timeline{
+        width: 80%;
+    }
+    #location{
+        font-size: 1em;
+    }
+    #location>a>img{
+        width: 80%;
+        height: auto;
+    }
+    #gallery{
+        width: 100%;
+    }
+    #carouselExampleControls{
+        height: 250px;
+    }
+    #carouselExampleControls>div>div>img{
+        height: auto;
+    }
+    .WidthMyCard{
+        margin: 10px 0;
+    }
+    #sponser>img{
+        width: 20%;
+        height: 20%;
+    }
+    #qanda>button, #publicrelation, #qanda>div>div, .HeadSection{
+        font-size: 1em;
+    }
+    #footer>a>img{
+        margin: 1px 5px;
+        width: 70%;
+        height: 70%;
+    }
+    #in0{
+        bottom: 83px;
+        right: 88px;
+    }
+    #in1{
+        bottom: -60px;
+        right: -30px;
+    }
+    #in2{
+        bottom: -79px;
+        right: -49px;
+    }
+    #exampleModalScrollable, #MyContent, #publicrelation{
+        width: 100%;
+    }
+}
+
+/* RESPOSIVE */

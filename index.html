@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
     <link rel="stylesheet" href="css/MainView.css">
+    <link rel="stylesheet" href="css/ResponsiveToPhone.css">
+    <link rel="stylesheet" href="css/ResponsiveToTablet.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
@@ -14,15 +16,20 @@
     <title>KU Startup Camp3</title>
 </head>
 <body class="kanit">
-    <div id="in0"><a href="">register</a></div>
-    <img src="image/IconWeb/web-51.png" alt="" id="in1">
-    <img src="image/IconWeb/web-52.png" alt="" id="in2">
+    <a href="" target="_blank" id="FirstRegister">
+        <div id="register">
+            <div id="in0"><p>register</p></div>
+            <img src="image/IconWeb/web-51.png" alt="" id="in1">
+            <img src="image/IconWeb/web-52.png" alt="" id="in2">
+        </div>
+    </a>
     <div id="headweb" class="MainContainer">
         <h1>KU STARTUP CAMP 3</h1>
         <img src="image/png/headweb.png" alt="">
+        <a href="" target="_blank" style="text-decoration: none" id="SecondRegister"><div id="RegisterButton">REGISTER</div></a>
     </div>
     <div class="ContainerHeadSection"><div class="HeadSection">WHAT IS KU STARTUP CAMP?</div></div>
-    <div id="intro">
+    <div id="intro" class="senserif">
         <p> &nbsp;&nbsp;&nbsp;&nbsp;เมื่อเทคโนโลยีที่เปลี่ยนไปได้เข้ามาสร้างการเปลี่ยนแปลง จนทำให้หลายๆ
             สิ่งที่เคยมีอยู่ในอดีต ถูกแย่งชิงบทบาทจนแทบจะหายไป
             ในฐานะของค่ายสร้างเว็บหนึ่งเดียวของไทย เรากำลังตามหาคนทำเว็บสายเลือดใฟม่
@@ -96,25 +103,28 @@
     <div class="ContainerHeadSection"><div class="HeadSection">LOCATION</div></div>
     <div id="location" class="MainContainer">
         <p>โรงแรมนานาชาติบางแสน จ.ชลบุรี</p>
-        <a href="http://www.bangsaenhostel.com/index.php"><img src="image/png/location.jpg" alt=""></a>
+        <a href="http://www.bangsaenhostel.com/index.php" target="_blank"><img src="image/png/location.jpg" alt=""></a>
     </div>
     <div class="ContainerHeadSection"><div class="HeadSection">INSTRUCTOR</div></div>
-    <div id="instructor" class="MainContainer">
+    <div id="instructor" class="MainContainer pridi">
         <div class="card WidthMyCard">
             <img class="card-img-top" src="image/test.jpg" alt="Card image cap">
             <div class="card-body">
+                <h1>name</h1>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
         </div>
         <div class="card WidthMyCard">
             <img class="card-img-top" src="image/test.jpg" alt="Card image cap">
             <div class="card-body">
+                <h1>name</h1>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
         </div>
         <div class="card WidthMyCard">
             <img class="card-img-top" src="image/test.jpg" alt="Card image cap">
             <div class="card-body">
+                <h1>name</h1>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
         </div>
@@ -152,39 +162,44 @@
     <div class="ContainerHeadSection"><div class="HeadSection">SPONSER</div></div>
     <div id="sponser" class="MainContainer">
         <!-- เว้นไว้ใส่รูป -->
-        <img src="image/png/ex.png" alt="">
-        <img src="image/png/web-22.png" alt="">
-        <img src="image/png/web-22.png" alt="">
-        <img src="image/png/web-22.png" alt="">
-        <img src="image/png/web-22.png" alt="">
-        <img src="image/png/web-22.png" alt="">
-        <img src="image/png/web-22.png" alt="">
+        <a href="https://existing.co/" target="_blank"><div class="circle"><img src="image/png/ex.png" alt=""></div></a>
+        <a href="https://existing.co/" target="_blank"><div class="circle"><img src="image/png/ex.png" alt=""></div></a>
+        <a href="https://existing.co/" target="_blank"><div class="circle"><img src="image/png/ex.png" alt=""></div></a>
+        <a href="https://existing.co/" target="_blank"><div class="circle"><img src="image/png/ex.png" alt=""></div></a>
     </div>
     <div class="ContainerHeadSection"><div class="HeadSection">Q & A</div></div>
     <div id="qanda" class="MainContainer">
 
-        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample" style="background-color:red">
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample" >
             Button with data-target
         </button>
         <div class="collapse" id="collapseExample">
-        <div class="card card-body">
-            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-        </div>
-        </div>
-        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2">
-                Button with data-target
-            </button>
-            <div class="collapse" id="collapseExample2">
             <div class="card card-body">
                 Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
             </div>
+        </div>
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2">
+            Button with data-target
+        </button>
+        <div class="collapse" id="collapseExample2">
+            <div class="card card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
             </div>
+        </div>
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample" >
+            Button with data-target
+        </button>
+        <div class="collapse" id="collapseExample3">
+            <div class="card card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+            </div>
+        </div>
     </div>
     <div class="ContainerHeadSection"><div class="HeadSection">FOLLOW</div></div>
     <div id="footer" class="MainContainer">
-        <img src="image/png/web-23.png" alt="">
-        <img src="image/png/web-53.png" alt="">
-        <img src="image/png/web-54.png" alt="">
+        <a href="" target="_blank"><img src="image/png/web-23.png" alt=""></a>
+        <a href="" target="_blank"><img src="image/png/web-53.png" alt=""></a>
+        <a href="" target="_blank"><img src="image/png/web-54.png" alt=""></a>
     </div>
     <!-- Button trigger modal -->
     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalScrollable" id="publicrelation">
