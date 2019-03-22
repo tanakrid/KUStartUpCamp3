@@ -60,11 +60,9 @@
     #qanda>button, #publicrelation, #qanda>div>div, .HeadSection{
         font-size: 1em;
     }
-    #footer>a>img{
+    /* #footer>a>img{
         margin: 1px 5px;
-        width: 70%;
-        height: 70%;
-    }
+    } */
     #in0{
         bottom: 83px;
         right: 88px;
@@ -79,6 +77,14 @@
     }
     #exampleModalScrollable, #MyContent, #publicrelation{
         width: 100%;
+    }
+    #co-working{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    #qanda>div>div{
+        width: 250px;
+        padding-left: 40px;
     }
 }
 

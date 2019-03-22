@@ -30,6 +30,14 @@
         height: auto;
         margin: 10px 0;
     }
+    #co-working{
+        width: 80%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #qanda>div>div{
+        width: 600px;
+    }
 }
 @media (max-width: 1024px) and (min-width: 770px){
     #FirstRegister{
@@ -44,5 +52,14 @@
     }
     .container-major{
         margin: 5px 10px;
+    }
+    #co-working{
+        width: 100%;
+        padding: 5px 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #qanda>div>div{
+        width: 800px;
     }
 }
