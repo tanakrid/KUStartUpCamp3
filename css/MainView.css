@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Kanit');
 @import url('https://fonts.googleapis.com/css?family=Pridi');
 
-/* div{ 
+div{ 
     border: 1px solid black;
-} */
+}
 body{
     margin: 0%;
     display: flex;

@@ -1,17 +1,48 @@
-/* @media only screen and (max-width: 1024px){
+@media (max-width: 770px) and (min-width: 376px){
     #FirstRegister{
         display: none;
     }
     #headweb>img{
-        width: 1000px;
+        width: 760px;
         height: 500px;
     }
+    #majors{
+        flex-wrap: wrap;
+    }
+    .container-major{
+        margin: 5px 70px;
+    }
+    .container-timeline{
+        margin: 5px 70px;
+        width: 30%;
+    }
+    #location>a>img{
+        width: 80%;
+        height: auto;
+    }
+    #instructor{
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    .WidthMyCard{
+        width: 50%;
+        height: auto;
+        margin: 10px 0;
+    }
 }
-@media only screen and (max-width: 768px min-width: 376px){
+@media (max-width: 1024px) and (min-width: 770px){
     #FirstRegister{
         display: none;
     }
     #headweb>img{
-        width: 765px;
+        width: 1010px;
     }
-} */
+    #majors{
+        width: 100%;
+        padding: 0;
+    }
+    .container-major{
+        margin: 5px 10px;
+    }
+}
