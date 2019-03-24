@@ -140,7 +140,8 @@ a>#RegisterButton:hover{
 }
 .container-major>p{
     text-align: center;
-    font-size: 2em;
+    font-size: 1.5em;
+    font-weight: bold;
 }
 .container-major>div{
     box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
