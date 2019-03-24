@@ -316,5 +316,8 @@ a>#RegisterButton:hover{
 body>p{
     text-align: center;
 }
+#line{
+    display: none;
+}
 
 
