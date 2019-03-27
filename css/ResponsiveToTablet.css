@@ -1,10 +1,6 @@
-@media (max-width: 770px) and (min-width: 376px){
+@media (max-width: 768px) and (min-width: 415px){
     #FirstRegister{
         display: none;
-    }
-    #headweb>img{
-        width: 760px;
-        height: 500px;
     }
     #majors{
         flex-wrap: wrap;
@@ -39,13 +35,13 @@
         width: 600px;
     }
 }
-@media (max-width: 1024px) and (min-width: 770px){
+@media (max-width: 1024px) and (min-width: 769px){
     #FirstRegister{
         display: none;
     }
-    #headweb>img{
+    /* #headweb>img{
         width: 1010px;
-    }
+    } */
     #majors{
         width: 100%;
         padding: 0;

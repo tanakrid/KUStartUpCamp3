@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Kanit');
 @import url('https://fonts.googleapis.com/css?family=Pridi');
 
-/* div{ 
+div{ 
     border: 1px solid black;
-} */
+}
 body{
     margin: 0%;
     display: flex;
@@ -91,11 +91,11 @@ a:hover, a:visited{
 }
 #headweb>h1{
     text-align: center;
-    font-size: 4em;
+    font-size: 400%;
 }
 #headweb>img{
-    width: 1100px;
-    height: 600px;
+    width:80%;
+    height:auto;
 }
 #SecondRegister{
     margin-top: 10px;
@@ -130,7 +130,7 @@ a>#RegisterButton:hover{
 
 /* INTRO */
 #intro{
-    padding: 0 20% 0 20%;
+    padding: 0 20%;
     margin: 10px;
     font-size: 1.5em;
     color: #777777;
@@ -140,7 +140,7 @@ a>#RegisterButton:hover{
 /* MAJORS */
 #majors{
     display: flex;
-    padding: 0 10% 0 10%;
+    padding: 0 10%;
 }
 .container-major{
     display: flex;
@@ -201,8 +201,10 @@ a>#RegisterButton:hover{
     font-size: 1.5em;
 }
 #location>a>img{
-    width: 900px;
-    height: 500px;
+    /* width: 900px;
+    height: 500px; */
+    width: 70%;
+    height: auto;
     border: #616161 solid 10px;
 }
 /* LOCATION */
@@ -233,14 +235,10 @@ a>#RegisterButton:hover{
 #sponser{
     padding: 0 50px;
 }
-.circle>img{
-    width: 100%;
-    height: auto;
-    /* padding-top: 45px; */
-}
 .circle{
     margin: 50px;
-    background-color:#FFFFFF;
+    background-size: 125%;
+    background-position: center;
     overflow: hidden;
     border-radius: 50%;
     width: 170px;
@@ -248,17 +246,17 @@ a>#RegisterButton:hover{
     border: 2px dashed black;
     /* box-shadow:  0 0 10px #5131e0; */
 }
+.link_class {
+    display:inline-block;
+    width:100%;
+    height:100%;
+}
 /* SPONSER */
 
 /*GALLERY*/
 #gallery{
-    width: 600px;
-}
-#carouselExampleControls{
-    height: 400px;
-}
-#carouselExampleControls>div>div>img{
-    height: 400px;
+    width: 55%;
+    height: auto;
 }
 /*GALLERY*/
 
@@ -308,7 +306,7 @@ a>#RegisterButton:hover{
 #publicrelation{
     background: none;
     border-radius: 50px;
-    width: 500px;
+    width: 40%;
     margin: 15px 0 ;
     transition: background-color 2s;
     transition: color 1s;
