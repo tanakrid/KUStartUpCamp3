@@ -1,31 +1,10 @@
 /* RESPOSIVE */
-@media(max-width: 320px){
-    p{
-        font-size: 0.3em;
-    }
-    .HeadSection{
-        font-size: 0.3em;
-    }
-    #headweb{
-        color: red;
-        font-size: 0.5em;
-    }
-    #SecondRegister{
-        font-size: 0.7em;
-    }
+@media(max-width: 414px){
     #register{
         display: none;
     }
-    #intro{
-        padding: 0 13%;
-    }
-    .container-major{
-        width: 80%;
-        margin: 30px 0 0 0;
-    }
-    .container-major>div{
-        width: 130%;
-        height: 50%;
+    #headweb{
+        font-size: 0.5em;
     }
     #majors{
         flex-direction: column;
@@ -36,12 +15,60 @@
         flex-direction: column;
         align-items: center;
     }
+    #co-working{
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding-bottom: 10%;
+    }
+    #publicrelation{
+        width: 100%;
+        font-size: 1em;
+    }
+    .HeadSection{
+        font-size: 0.8em;
+        font-weight: bold;
+    }
+    #intro{
+        font-size: 0.4em;
+        padding: 0 10%;
+    }
+    .container-major{
+        width: 80%;
+        margin-bottom: 30px;
+    }
+    .container-major>div{
+        width: 130%;
+        height: 50%;
+    }
     .container-timeline{
         width: 80%;
-        margin: 20px 0 0 0;
+        margin-top: 20px;
     }
     .container-timeline>p{
         margin-top: -1%;
+    }
+    .circle{
+        margin-bottom: -2%;
+    }
+    #gallery{
+        width: 80%;
+    }
+    #qanda>button{
+        font-size: 1em;
+    }
+    #line{
+        margin-top: 15px;
+        display: block;
+    }
+    #qanda>div>div{
+        width: 250px;
+        padding-left: 10%;
+        font-size: 0.5em;
+    }
+}
+@media(max-width: 320px){
+    #SecondRegister{
+        font-size: 0.7em;
     }
     .container-timeline>img{
         width: 80%;
@@ -54,94 +81,24 @@
         font-size: 1.3em;
         font-weight: bold;
     }
-    #gallery{
-        width: 80%;
-    }
     #sponser{
         padding: 0 0 10% 0;
         margin-bottom: 10%;
     }
-    .circle{
-        margin-bottom: -5%;
-        width: 200px;
-        height: 200px;
-    }
-    #qanda>button{
-        font-size: 1em;
-    }
-    #co-working{
-        padding: 0 0 10% 0;
-        flex-wrap: wrap;
-        flex-direction: column;
-    }
-    #publicrelation{
-        width: 100%;
+    #qanda>div>div{
         font-size: 1em;
     }
 }
 @media(max-width: 360px) and (min-width: 321px){
-    #headweb{
-        color: green;
-        font-size: 0.5em;
-    }
-
-    #register{
-        display: none;
-    }
-    #majors{
-        flex-direction: column;
-        align-items: center;
-    }
-    #timeline{
-        flex-wrap: nowrap;
-        flex-direction: column;
-        align-items: center;
-    }
-    #co-working{
-        flex-wrap: wrap;
-        flex-direction: column;
-    }
-    #publicrelation{
-        width: 100%;
+    #sponser{
+        padding: 0 0 10% 0;
     }
 }
 
 @media(max-width: 375px) and (min-width: 361px){
-    #FirstRegister{
-        display: none;
-    }
-    #headweb{
-        font-size: 0.5em;
-        color: blue;
-    }
-    #intro{
-        padding: 0 10% 0 10%;
-        font-size: 0.9em;
-    }
-    #majors{
-        flex-direction: column;
-        align-items: center;
-    }
-    .container-major{
-        margin: 25px 0;
-    }
     .container-major>img{
         width: 200px;
         height: 200px;
-    }
-    .container-major>div{
-        margin-top: -10px;
-        width: 250px;
-        height: auto;
-    }
-    #timeline{
-        flex-wrap: nowrap;
-        flex-direction: column;
-        align-items: center;
-    }
-    .container-timeline{
-        margin: 20px 0;
-        width: 80%;
     }
     #location{
         font-size: 1em;
@@ -149,9 +106,6 @@
     #location>a>img{
         width: 80%;
         height: auto;
-    }
-    #gallery{
-        width: 100%;
     }
     #carouselExampleControls{
         height: 250px;
@@ -169,56 +123,8 @@
     #sponser>a{
         margin: -25px;
     }
-    #qanda>button, #publicrelation, #qanda>div>div, .HeadSection{
-        font-size: 1em;
-    }
-    #in0{
-        bottom: 83px;
-        right: 88px;
-    }
-    #in1{
-        bottom: -60px;
-        right: -30px;
-    }
-    #in2{
-        bottom: -79px;
-        right: -49px;
-    }
-    #exampleModalScrollable, #MyContent, #publicrelation{
+    #exampleModalScrollable, #MyContent{
         width: 100%;
-    }
-    #co-working{
-        flex-wrap: wrap;
-        flex-direction: column;
-    }
-    #co-working>a{
-        margin: -25px 0;
-    }
-    #qanda>div>div{
-        width: 250px;
-        padding-left: 40px;
-    }
-    #line{
-        margin-top: 15px;
-        display: block;
-    }
-}
-@media(max-width: 411px) and (min-width: 376px){
-    #headweb{
-        color: yellow;
-    }
-
-    #register{
-        display: none;
-    }
-}
-@media(max-width: 414px) and (min-width: 412px){
-    #headweb{
-        color: pink;
-    }
-
-    #register{
-        display: none;
     }
 }
 
