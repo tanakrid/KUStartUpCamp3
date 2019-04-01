@@ -211,17 +211,18 @@ a>#RegisterButton:hover{
 #instructor{
     flex-wrap: wrap;
 }
-#instructor>img{
-    margin: 10px;
-}
 .WidthMyCard{
     z-index: -1;
     width: 18rem; 
     margin: 10px 40px;
 }
+.picture{
+    width: 100%;
+    height: 250px;
+}
 .WidthMyCard>div{
     width:100%; 
-    height: 250px;
+    /* height: 160px; */
     background-position: center
 }
 .card-body>h1{

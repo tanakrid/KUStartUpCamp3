@@ -25,11 +25,13 @@
         font-size: 1em;
     }
     .HeadSection{
-        font-size: 0.8em;
+
+        width: 90%;
+        font-size: 1.5em;
         font-weight: bold;
     }
     #intro{
-        font-size: 0.4em;
+        font-size: 0.9em;
         padding: 0 10%;
     }
     .container-major{
