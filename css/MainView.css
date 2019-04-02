@@ -40,6 +40,27 @@ a:hover, a:visited{
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
     margin: 8% 0 2% 0;
 }
+.animate-button{
+    font-size: 2.5em;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    transition: background-color 500ms ease;
+    transition: color 500ms ease;
+    transition-property: background-color;
+    transition-duration: 500ms;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+.animate-button:hover{
+    transition: background-color 500ms ease;
+    transition: color 500ms ease;
+    transition-property: background-color;
+    transition-property: color;
+    transition-duration: 500ms;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
 
 /* REGISTER */
 @keyframes rotating{
@@ -61,7 +82,7 @@ a:hover, a:visited{
     font-size: 200%;
     z-index: 12; 
     top: 34%;
-    left: 17%;
+    left: 14%;
 }
 #in1{
     z-index: 11;
@@ -87,7 +108,9 @@ a:hover, a:visited{
 #headweb{
     margin-top: 20px;
     flex-direction: column;
+    height: 100%;
     align-items: center;
+    justify-content: center;
 }
 #headweb>h1{
     text-align: center;
@@ -101,30 +124,29 @@ a:hover, a:visited{
     margin-top: 10px;
     width: 30%;
 }
-a>#RegisterButton{
-    font-size: 2.5em;
-    text-align: center;
-    border-radius: 8px;
+#HowtoRegister{
+    margin-top: 10px;
+    width: 30%;
+}
+#second-register{
     background-color: #dd3305;
     color: black;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-    transition: background-color 500ms ease;
-    transition: color 500ms ease;
-    transition-property: background-color;
-    transition-duration: 500ms;
-    transition-timing-function: ease;
-    transition-delay: 0s;
 }
-a>#RegisterButton:hover{
+#second-register:hover{
     background-color: #830c0c;
     color: #F2F2F2;
-    transition: background-color 500ms ease;
-    transition: color 500ms ease;
-    transition-property: background-color;
-    transition-property: color;
-    transition-duration: 500ms;
-    transition-timing-function: ease;
-    transition-delay: 0s;
+}
+#howto-register{
+    margin-top: 15px;
+    /* width: 200%; */
+    background: none;
+    border-radius: 50px;
+    border: 2px solid #35BEAC;
+    color: black;
+}
+#howto-register:hover{
+    background-color: #35BEAC;
+    color: #F2F2F2;
 }
 /* HEADWEB */
 
