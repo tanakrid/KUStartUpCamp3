@@ -27,7 +27,7 @@
     .HeadSection{
 
         width: 90%;
-        font-size: 1.5em;
+        font-size: 1.2em;
         font-weight: bold;
     }
     #intro{
@@ -67,6 +67,12 @@
         padding-left: 10%;
         font-size: 0.5em;
     }
+    #howto-register{
+        padding: 5px;
+        /* width: 200px; */
+        /* height: auto; */
+        font-size: 1.2em;
+    }
 }
 @media(max-width: 320px){
     #SecondRegister{
@@ -91,9 +97,17 @@
         font-size: 1em;
     }
 }
+@media(max-width: 320px){
+    #oversize{
+        padding: 2px;
+    }
+}
 @media(max-width: 360px) and (min-width: 321px){
     #sponser{
         padding: 0 0 10% 0;
+    }
+    #howto-register{
+        font-size: 1em;
     }
 }
 
