@@ -241,6 +241,7 @@ a:hover, a:visited{
 .picture{
     width: 100%;
     height: 250px;
+    background-repeat: no-repeat;
 }
 .WidthMyCard>div{
     width:100%; 
