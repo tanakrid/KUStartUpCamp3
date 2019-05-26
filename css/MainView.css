@@ -189,7 +189,7 @@ a:hover, a:visited{
 }
 .container-major>img{
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
 }
 /* MAJORS */
 
